@@ -1,0 +1,116 @@
+ul {
+  list-style-type: none; }
+
+li {
+  list-style-type: none;
+  font-size: 0; }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px  12px;
+  background-color: white;
+  font-family: 'Alata', sans-serif; }
+
+nav ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-in-out; }
+
+ul li:hover {
+  transform: scale(1.2);
+  box-shadow: 0 4px 16px coral; }
+
+.logo img {
+  width: 85%;
+  height: 85%; }
+
+main .fondo {
+  width: 100%;
+  height: 660px;
+  background-image: url(../seccion/media/containeraazul.JPG);
+  background-size: cover;
+  background-size: 100% 100%;
+  font-family: 'Alata', sans-serif;
+  text-align: center;
+  font-size: 130%;
+  color: coral; }
+
+main .fondo:hover {
+  filter: saturate(180%); }
+
+main p {
+  font-family: 'Alata', sans-serif;
+  text-align: justify; }
+
+h3 {
+  color: coral; }
+
+h2 {
+  color: midnightblue;
+  text-align: center; }
+
+h2:hover {
+  transform: scale(1.2);
+  transition: transform .2s; }
+
+.formulario {
+  background-image: linear-gradient(coral, #fa9f7e);
+  font-family: 'Alata', sans-serif;
+  color: midnightblue; }
+
+footer nav {
+  background-color: coral; }
+
+.carousel-inner > .item > img {
+  margin: 0 auto; }
+
+legend {
+  color: coral;
+  font-size: 270%;
+  text-align: center;
+  font-family: 'Alata', sans-serif; }
+
+table {
+  font-family: 'Alata', sans-serif;
+  color: midnightblue;
+  border-collapse: collapse;
+  width: 100%; }
+
+td, th {
+  border: 2px solid coral;
+  text-align: center;
+  padding: 8px; }
+
+tr:nth-child(even) {
+  background-color: #7aa7b4; }
+
+.botonera {
+  text-align: center;
+  color: coral; }
+
+.usted {
+  font-family: 'Alata', sans-serif;
+  color: coral;
+  text-align: center;
+  font-size: 150%; }
+
+.usted:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease; }
+
+.boton {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 500px;
+  padding: 0.5em 1.2em;
+  background: #7aa7b4;
+  border: 2px solid; }
+
+.boton:hover {
+  box-shadow: 0 4px 16px coral;
+  transition: all 0.2s ease;
+  color: cyan; }
