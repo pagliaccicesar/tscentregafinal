@@ -1,3 +1,9 @@
+@media screen and (max-width: 768px) {
+  .row {
+    text-align: center;
+    height: 200%;
+    width: 100%; } }
+
 ul {
   list-style-type: none; }
 

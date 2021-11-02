@@ -1,3 +1,12 @@
+@media screen and (max-width: 768px) {
+    .row {
+    text-align: center;
+    height: 200%;
+    width: 100%; }
+}
+
+
+
 ul {
     list-style-type: none; }
   
@@ -54,7 +63,7 @@ h2 {
 h2:hover {
     transform: scale(1.1);
     transition: transform .2s;}
-    
+
 h1 {
     color:coral;
     text-align: center;}
@@ -118,3 +127,6 @@ tr:nth-child(even) {
     box-shadow: 0 4px 16px coral;
     transition: all 0.2s ease;
     color:cyan; }
+
+
+        
