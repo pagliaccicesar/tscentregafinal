@@ -85,16 +85,19 @@ table {
   /*width: 100%;*/ }
 
 @media (max-width: 480px) {
+  .maquina {
+    width: 100%; } }
+
+@media (max-width: 480px) {
   th, td, tr {
     text-align: left;
     font-size: 75%; } }
 
-.imagenmapa {
-  /*box-shadow: 0 4px 16px coral;*/
-  width: 100%; }
-
-.imagenfrente {
-  width: 100%; }
+@media (max-width: 480px) {
+  .imagenmapa, .imagenfrente {
+    display: inline-block;
+    width: 100%;
+    height: auto; } }
 
 td, th {
   border: 2px solid coral;
