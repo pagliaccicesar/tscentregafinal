@@ -79,10 +79,15 @@ legend {
 
 table {
   font-family: 'Alata', sans-serif;
-  size: 90em;
+  size: 80em;
   color: midnightblue;
   border-collapse: collapse;
-  width: 100%; }
+  /*width: 100%;*/ }
+
+@media (max-width: 700px) {
+  th, td, tr {
+    text-align: center;
+    font-size: 80%; } }
 
 td, th {
   border: 2px solid coral;
