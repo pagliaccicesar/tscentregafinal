@@ -86,8 +86,7 @@ table {
 
 @media (max-width: 1024px) {
     .maquina {
-        width: 100%;
-    }
+        width: 100%;}
 }
 
 @media (max-width: 480px) {
@@ -95,12 +94,13 @@ table {
         text-align: left;
         font-size: 75%;} 
 }
-@media (max-width: 480px) {
-.imagenmapa, .imagenfrente {   
-        display: inline-block; 
+
+@media (max-width: 1024px) {
+        .imagenmapa, .imagenfrente, legend {   
         width: 100%;
-        height: auto;
-    }
+        text-align: top;
+        font-size: 100%;
+        height: auto;}
 }
 
 td, th {

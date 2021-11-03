@@ -93,10 +93,11 @@ table {
     text-align: left;
     font-size: 75%; } }
 
-@media (max-width: 480px) {
-  .imagenmapa, .imagenfrente {
-    display: inline-block;
+@media (max-width: 1024px) {
+  .imagenmapa, .imagenfrente, legend {
     width: 100%;
+    text-align: top;
+    font-size: 100%;
     height: auto; } }
 
 td, th {
