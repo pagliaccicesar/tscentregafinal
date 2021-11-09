@@ -21,6 +21,7 @@ nav ul li {
 
 ul li:hover {
   transform: scale(1.2);
+  text-decoration: none;
   box-shadow: 0 4px 16px coral; }
 
 .logo img {

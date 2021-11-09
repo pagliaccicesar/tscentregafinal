@@ -3,11 +3,11 @@ ul {
   
 li {
     list-style-type: none;
-    font-size: 0; }
+    font-size: 0;}
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;   
     align-items: center;
     padding: 10px  12px;
     background-color: white;
@@ -21,6 +21,7 @@ nav ul li {
 
 ul li:hover {
     transform: scale(1.2);
+    text-decoration: none;
     box-shadow: 0 4px 16px coral;}
 
 .logo img {
